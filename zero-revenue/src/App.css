@@ -1,0 +1,31 @@
+
+.App {
+  
+    margin: 0;
+    padding: 0;
+   background-color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard, .profile, .growth-chart {
+  border: 1px solid #ccc;
+  padding: 90px;
+  margin: 100px;
+  border-radius: 1px;
+}
+
+.dashboard {
+  background-color: rgb(228, 115, 70);
+}
+
+.profile {
+  background-color: rgb(70, 67, 67);
+}
+
+.growth-chart {
+  background-color: teal;
+}
